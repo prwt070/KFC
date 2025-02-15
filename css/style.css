@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 ul{
     display: flex;
     justify-content: space-evenly;
@@ -61,4 +62,42 @@ li{
     background-color: rgb(216, 216, 216);
     border: 0px solid grey;
     color: red;
+}
+
+.row{
+    width: 100%;
+}
+
+.vak1{
+    background-image: url('../img/4274.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+    border-radius: 30px;
+    margin: 0px 52px;
+    color: white;
+}
+
+.vak2{
+    background-image: url('../img/4308.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 700px;
+    border-radius: 30px;
+    color: white;
+}
+
+.vak3{
+    background-image: url('../img/logo.svg');
+}
+
+.vakt{
+    margin-top: 290px;
+    margin-left: 50px;
+}
+
+.wor{
+    display: flex;
 }
