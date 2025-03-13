@@ -134,8 +134,9 @@ header {
 }
 
 .sidebar2{
-    position: fixed;
-    height: 80%;
+    position: sticky;
+    top: 150px;
+    height: 60%;
     margin-bottom: 0px;
 }
 
@@ -143,3 +144,28 @@ header {
     border-bottom: 1px solid grey;
 }
 
+.menu_sec h4{
+    font-size: 16px;
+}
+.menu_sec ul li:hover{
+    background-color: #e1e0e0;
+    border-radius: 50px;
+
+    color: red;
+    width: 70%;
+}
+
+.menu_sec ul li{
+    font-size: 14px;
+    transition: 0.5s;
+    height: 45px;
+    width: 70%;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+footer{
+    z-index: 2;
+    position: static;
+}
